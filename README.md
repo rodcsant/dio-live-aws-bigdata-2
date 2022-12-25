@@ -1,6 +1,17 @@
 # Instruções para atividade prática
 Repositório para a Live de 24/06/2021
 
+Roteiro:
+1. Criar um Stream Delivery com o AWS Kinesis Firehose
+
+2. Configurar instance no AWS EC2
+
+3. Gerar logs de processamento de dados com Python 
+
+4. Armazenar logs no AWS S3
+
+5. Manipular dados no AWS Glue Data Brew (análise gráfica)	
+
 ### Kinesis Delivery Stream
 
 - AWS Console -> Kinesis -> Create Firehose Delivery Stream "StreamName" -> Direct PUT -> Next -> Choose Destination -> Create S3 Bucket “covid-vaccines-logs-diolive” -> Configure settings -> buffer size 5mb -> buffer interval 60s -> IAM Role -> create new role -> Review and create
