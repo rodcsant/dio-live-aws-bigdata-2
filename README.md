@@ -1,7 +1,7 @@
 # Instruções para atividade prática
 Repositório para a Live de 24/06/2021
 
-Roteiro:
+### Roteiro:
 1. Criar um Stream Delivery com o AWS Kinesis Firehose
 
 2. Configurar instance no AWS EC2
